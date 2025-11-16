@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⛪ Site Oficial da **Primeira Igreja Batista de Macarani**
 
-## Getting Started
+Bem-vindo ao repositório oficial do **site da Primeira Igreja Batista de Macarani**.  
+Este projeto foi desenvolvido para oferecer uma plataforma moderna, responsiva e estratégica, com informações sobre cultos, eventos, ministérios e conteúdos espirituais.
 
-First, run the development server:
+---
+
+## 📖 Sobre o Projeto
+
+Este site foi criado para:
+
+- Informar horários de cultos e programações semanais  
+- Divulgar eventos e atividades da igreja  
+- Exibir ministérios, visão e missão  
+- Facilitar o contato com visitantes e membros  
+- Compartilhar estudos, devocionais e mensagens  
+- Criar uma presença digital sólida e profissional para a igreja  
+
+É um projeto feito com excelência para servir nossa comunidade e glorificar a Deus. 🙏
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O site foi construído com tecnologias modernas:
+
+- **Next.js 14** — Renderização rápida, SSR/SSG e ótimo SEO  
+- **React** — Componentização e arquitetura moderna  
+- **TypeScript** — Tipagem estática e mais segurança no código  
+- **shadcn/ui** — Componentes profissionais, acessíveis e altamente customizáveis  
+- **TailwindCSS** — Estilização moderna e responsiva  
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+ ├── app/
+ ├── components/
+ ├── lib/
+ └── types/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Como Rodar Localmente
+```bash
+git clone https://github.com/seu-usuario/pib-macarani.git
+cd pib-macarani
+npm install
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O projeto iniciará em:
+➡ http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📬 Contato
 
-To learn more about Next.js, take a look at the following resources:
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/pibmacarani)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feito com ❤️ e excelência para a Obra de Deus.
