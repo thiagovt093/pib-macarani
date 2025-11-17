@@ -55,8 +55,16 @@ O projeto iniciará em:
 
 ---
 
+## 📄 License
+
+Este projeto está licenciado sob a **MIT License**.  
+Consulte o arquivo completo em: [LICENSE](./LICENSE)
+
+---
+
 ## 📬 Contato
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/pibmacarani)
+
 
 Feito com ❤️ e excelência para a Obra de Deus.
