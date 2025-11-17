@@ -1,6 +1,6 @@
 "use client";
 
-import { Footer2 } from "../components/footer2";
+import Footer from "@/src/components/Footer";
 import { NavigationMenuDemo } from "@/src/components/NavBar";
 import { Button } from "@/src/components/ui/button";
 import Image from "next/image";
@@ -54,7 +54,7 @@ export default function HomePage() {
           <div className="flex items-center space-x-3">
             <Image
               alt="Logo PIB"
-              src={"/logo.png"}
+              src={"/favicon.png"}
               width={40}
               height={40}
               className="rounded-full"
@@ -105,28 +105,35 @@ export default function HomePage() {
 
       <section className="container mx-auto px-4 md:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-          <div className="p-6 bg-white rounded-lg shadow-lg">
-            <h4 className="text-2xl font-bold mb-2 text-yellow-600">Missões</h4>
-            <p className="text-gray-600">
-              Apoie nossa Campanha de Missões Nacionais e Estaduais.
-            </p>
-          </div>
+          <Card className="p-6 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl cursor-pointer group relative overflow-hidden bg-white">
+            <div className="absolute inset-0 bg-linear-to-r from-yellow-100 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <CardContent className="p-0 relative z-10">
+              <h4 className="text-2xl font-bold mb-2 text-yellow-600 group-hover:text-yellow-700 transition-colors">Missões</h4>
+              <p className="text-gray-600 group-hover:text-gray-800 transition-colors">
+                Apoie nossa Campanha de Missões Nacionais e Estaduais.
+              </p>
+            </CardContent>
+          </Card>
 
-          <div className="p-6 bg-white rounded-lg shadow-lg">
-            <h4 className="text-2xl font-bold mb-2 text-blue-600">Cultos</h4>
-            <p className="text-gray-600">
-              Veja os horários dos nossos encontros semanais.
-            </p>
-          </div>
+          <Card className="p-6 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl cursor-pointer group relative overflow-hidden bg-white">
+            <div className="absolute inset-0 bg-linear-to-r from-blue-100 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <CardContent className="p-0 relative z-10">
+              <h4 className="text-2xl font-bold mb-2 text-blue-600 group-hover:text-blue-700 transition-colors">Cultos</h4>
+              <p className="text-gray-600 group-hover:text-gray-800 transition-colors">
+                Veja os horários dos nossos encontros semanais.
+              </p>
+            </CardContent>
+          </Card>
 
-          <div className="p-6 bg-white rounded-lg shadow-lg">
-            <h4 className="text-2xl font-bold mb-2 text-green-600">
-              Contribua
-            </h4>
-            <p className="text-gray-600">
-              Faça sua oferta e dízimo de forma rápida e segura.
-            </p>
-          </div>
+          <Card className="p-6 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl cursor-pointer group relative overflow-hidden bg-white">
+            <div className="absolute inset-0 bg-linear-to-r from-green-100 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <CardContent className="p-0 relative z-10">
+              <h4 className="text-2xl font-bold mb-2 text-green-600 group-hover:text-green-700 transition-colors">Contribua</h4>
+              <p className="text-gray-600 group-hover:text-gray-800 transition-colors">
+                Faça sua oferta e dízimo de forma rápida e segura.
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
@@ -283,7 +290,7 @@ export default function HomePage() {
       </section>
       <section>
         <div className="min-h-screen bg-white dark:bg-gray-800 flex flex-col justify-end">
-          <Footer2 />
+          <Footer />
         </div>
       </section>
     </main>

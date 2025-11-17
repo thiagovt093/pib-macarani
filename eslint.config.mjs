@@ -7,16 +7,6 @@ import prettierPlugin from "eslint-plugin-prettier";
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
-  prettier,
-
-  {
-    plugins: {
-      prettier: prettierPlugin,
-    },
-    rules: {
-      "prettier/prettier": "error",
-    },
-  },
 
   globalIgnores([".next/**", "out/**", "build/**", "next-env.d.ts"]),
 ]);
